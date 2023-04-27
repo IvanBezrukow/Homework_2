@@ -14,7 +14,7 @@
 
 try
 {
-    Console.Write("Введите 3-х значное число = ");
+    Console.Write("Введите любое значное число = ");
     int num1 = Convert.ToInt32(Console.ReadLine());
     if (num1 < 99)
     {
