@@ -16,14 +16,11 @@ try
 {
     Console.Write("Введите 3-х значное число = ");
     int num1 = Convert.ToInt32(Console.ReadLine());
-    if (num1 < 1000)
-        if (num1 < 99)
-        {
-            Console.WriteLine("Третье цифры нет");
-        }
-        else Console.WriteLine($"Третье число = {ThirdNumber(num1)}");
-    else
-        Console.WriteLine("Необходимо ввести 3-х значное число");
+    if (num1 < 99)
+    {
+        Console.WriteLine("Третье цифры нет");
+    }
+    else Console.WriteLine($"Третье число = {ThirdNumber(num1)}");
 }
 catch
 {
