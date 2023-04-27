@@ -12,8 +12,8 @@ if (num > 99)
         number2left = num % 10;
         Console.WriteLine(number2left);
     }
-    else 
+    else
         Console.WriteLine("Введите 3-х значное число");
 }
-else 
+else
     Console.WriteLine("Введите 3-х значное число");
